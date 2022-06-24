@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculadora de Piso</title>
+  </head>
+  <body>
+    
+
+    <h1 class="tituloPag">Saiba quantas peças de piso você irá precisar para a sua obra</h1>
+    <a
+      href="https://industriahoje.com.br/como-calcular-o-metro-quadrado-m%C2%B2#:~:text=A%20formula%20b%C3%A1sica%20voc%C3%AA%20aprendeu,a%20soma%20total%20no%20final."
+    ><h2>Como calcular a metragem do ambiente?</h2></a>
+    
+    <a href="https://mogipisos.com.br/como-calcular-a-metragem-necessaria-de-piso-e-revestimento/">
+    <h2>Como identificar a metragem do piso?</h2></a>
+
+    <div class="container">
+      <h1 class="tituloCalc">Calculadora de Piso</h1>
+      <input id="metragemA" type="number" placeholder="m2 do ambiente" />
+      <input
+        id="metragemP"
+        type="number"
+        step=".01"
+        placeholder="Metragem do piso em metros"
+      />
+      <button onclick="calcular()">Calcular</button>
+
+      <div id="resultado">
+        
+
+      </div>
+    </div>
+
+
+    <script src="./script.js" ></script>
+  </body>
+</html>
